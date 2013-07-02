@@ -8,7 +8,7 @@
     "authors": [
         {
             "name": "Rafael Calleja, its a fork of antimattr",
-	    "homepage": "https://github.com/antimattr"
+	    "homepage": "https://github.com/antimattr",
             "email": "rafa.calleja@d-noise.net"
         }
     ],
