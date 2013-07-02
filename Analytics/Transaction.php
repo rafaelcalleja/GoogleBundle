@@ -12,7 +12,62 @@ class Transaction
     private $state;
     private $tax;
     private $total;
+    private $paymentType;
+    private $currency;
+    private $type;
+    private $date;
+    private $shippingMethod;
+    private $promoCode;
+    
 
+    public function setPaymentType($value){
+    	$this->paymentType = $value;
+    }
+    
+    public function getPaymentType(){
+    	return $this->paymentType;
+    }
+    
+    public function setCurrency($value){
+    	$this->currency = $value;
+    }
+    
+    public function getCurrency(){
+    	return $this->currency;
+    }
+    
+    public function setType($value){
+    	$this->type = $value;
+    }
+    
+    public function getType(){
+    	return $this->type;
+    }
+    
+    public function setDate($value){
+    	$this->date = $value;
+    }
+    
+    public function getDate(){
+    	return $this->date;
+    }
+    
+    public function setShippingMethod($value){
+    	$this->shippingMethod = $value;
+    }
+    
+    public function getShippingMethod(){
+    	return $this->shippingMethod;
+    }
+    
+    public function setPromoCode($value){
+    	$this->promoCode = $value;
+    }
+    
+    public function getPromoCode(){
+    	return $this->promoCode;
+    }
+    
     public function setAffiliation($affiliation)
     {
         $this->affiliation = (string) $affiliation;
